@@ -191,10 +191,10 @@ if part == 9:
 #Задание 10
 if part == 10:
     def exeption(a, b):
-        c = a / b
         try:
-            c = a / 0
+            return a / b
         except ZeroDivisionError:
             c = 0
+            return c
         print(c)
-    exeption(3, 3)
+    print(exeption(3, 0))
