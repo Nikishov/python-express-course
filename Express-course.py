@@ -134,8 +134,7 @@ if part == 6:
         alp='абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
         if number <= len(alp):
             p = alp[number-1]
-            return p
-            
+            return p  
         elif number > 33:
             print("Error")
     print(alphavit(27))
@@ -181,8 +180,9 @@ if part == 8:
 if part == 9:
     spisok = []
     for i in range (100):
-        i = random.randint(1, 100)
-        print(i)
+        i = random.randint(1, 101)
+        spisok.append(i)
+    print(spisok)
 
 #-------------------------------------------------------------#
 #-------------------------------------------------------------#
