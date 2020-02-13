@@ -180,7 +180,7 @@ if part == 8:
 if part == 9:
     spisok = []
     for i in range (100):
-        i = random.randint(1, 101)
+        i = random.randint(1 // 2, 100 // 2) * 2 + 1 
         spisok.append(i)
     print(spisok)
 
